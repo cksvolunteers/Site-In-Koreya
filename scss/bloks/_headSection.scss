@@ -1,0 +1,59 @@
+.sectionInner {
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    &__texts {
+        background: linear-gradient(
+            90deg,
+            rgba(255, 254, 254, 1) 0%,
+            rgba(255, 254, 254, 1) 24%,
+            rgba(255, 255, 255, 0.7) 75%,
+            rgba(255, 255, 255, 0) 95%
+          );
+          width: 850px;
+          height: 500px;
+          padding-left: 80px;
+    }
+
+    &__text p {
+        width: 300px;
+        font-size: 20px;
+        color: rgb(50, 68, 122);
+        font-size: 24px;
+    }
+
+    &__text h1 {
+        font-size: 50px;
+        font-family: "Open Sans Condensed", sans-serif;
+        color: rgb(50, 68, 122);
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    &__img {
+        margin-top: 40px;
+        margin-right: 80px;
+    }
+
+    &__img1 {
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        top: 50%;
+        left: 3%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+
+    &__img2 {
+        position: absolute;
+        width: 30px;
+        height: 50px;
+        top: 50%;
+        left: 97%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,111 @@
+.headerTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__right-column-first {
+        align-self: flex-end;
+        margin-top: 30px;
+    }
+
+    &__right-column-first ul {
+        margin-right: 13px;
+        margin-top: -40px;
+        display: flex; 
+    }
+
+    &__right-column-second {
+        display: flex;
+        justify-content: center;
+        color: #05345e;
+    }
+
+    &__right-column-second h4 {
+        color: #05345e;
+        font-weight: 400;
+        font-size: 17px;
+        margin-top: 12px;
+    }
+
+    &__right-column-second .icons {
+        margin-top: 10px;
+        display: flex;
+    }
+
+    &__right-column-second .icons-box {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+        border: 1px solid black;
+        border-radius: 100%;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    &__right-column-second .icons-box:hover {
+        color: red;
+        border: 1px solid red;
+        transform: scale(1.5);
+    }
+  }
+
+  .headerBottom {
+    background: linear-gradient(to left, #378bd4, #378bd4 50%, rgba(238, 238, 238, 0) 75%);
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+
+    &__left img {
+        width: 300px;
+    }
+
+    &__menu-item a {
+        font-size: 17px;
+        color: aliceblue;
+    }
+  }
+
+  .headerTop__right,
+  .headerBottom__right {
+        flex-direction: column;
+        width: 800px;
+  }
+
+  .headerTop__right,
+  .headerBottom__right ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+  }
+
+  .headerBottom__right ul li {
+        margin-left: 15px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        cursor: pointer;
+  }
+
+  li {
+    margin-left: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  li:hover {
+    color: #f30505;
+    font-weight: 500;
+    transform: scale(1.1);
+  }
+
+
+
