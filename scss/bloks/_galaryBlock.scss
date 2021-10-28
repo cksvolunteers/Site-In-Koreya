@@ -1,0 +1,27 @@
+
+  
+  .gallery-pagetitle {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: rgb(50, 68, 122);
+    font-size: 30px;
+    margin: 40px 0 20px;
+    text-align: center;
+  }
+  
+  .gallery-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin: 0 auto 30px;
+  }
+  
+  .img-wrap {
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(50, 68, 122);
+  }
+  .gallery-img {
+    width: 400px;
+    height: 300px;
+  }

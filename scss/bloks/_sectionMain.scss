@@ -1,0 +1,137 @@
+.sectionMain {
+    margin-top: 110px;
+    margin-bottom: 120px;
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__text1 p {
+        font-family: "Open Sans Condensed", sans-serif;
+        color: black;
+        font-size: 18px;
+        margin: 10px 0 0;
+    }
+
+    &__text1 h1 {
+        font-family: "Open Sans Condensed", sans-serif;
+        color: rgb(50, 68, 122);
+        font-size: 20px;
+        margin-block-start: 0;
+    }
+
+    &__text1 a {
+        font-family: "Open Sans Condensed", sans-serif;
+        color: rgb(72, 92, 152);
+        font-size: 18px;
+    }
+
+    &__card {
+        width: 800px;
+        display: flex;
+    }
+
+    &__card img {
+        width: 50%;
+        height: 100%;
+        margin-right: 30px;
+    }
+
+    &__publication{
+        text-align: center;
+    }
+
+    &__publication_link {
+        display: block;
+        font-family: "Open Sans Condensed", sans-serif;
+        color: rgb(50, 68, 122);
+        font-size: 16px;
+        margin-bottom: 35px;
+        margin-top: 5px;
+    }
+
+    &__publication h1,
+    &__news-h1,
+    &__developments h1 {
+        font-family: "Open Sans Condensed", sans-serif;
+        color: rgb(50, 68, 122);
+        font-size: 30px;
+        margin: 40px 0 35px;
+        text-align: center;
+    } 
+
+    &__development-blocks {
+        padding: 5px;
+        width: 250px;
+        height: 250px;
+        border: 2px solid rgb(50, 68, 122);
+    }
+
+    &__gallery-block {
+        // background-image: url("img/gallery/gallery-photo-10.jpg");
+        background-image: url("/img/gallery/gallery-photo-10.jpg");
+        background-size: cover;
+      }
+}
+
+.archive {
+
+    &__list {
+        padding-inline-start: 30px;
+    }
+
+    &__list_item {
+        margin-bottom: 5px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-family: "Open Sans Condensed", sans-serif;
+        color: rgb(50, 68, 122);
+        font-size: 14px;
+    }
+
+    &__more_link {
+        text-decoration: underline;
+        padding-left: 100px;
+    }
+
+}
+
+
+/* calendar */
+#calendar2 {
+    width: 100%;
+    font: monospace;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  #calendar2 thead tr:last-child {
+    font-size: small;
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+  }
+  
+  #calendar2 thead tr:nth-child(1) td:nth-child(2) {
+    color: rgb(50, 50, 50);
+    cursor: pointer;
+  }
+  
+  #calendar2 thead tr:nth-child(1) td:nth-child(1):hover,
+  #calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+  }
+  
+  #calendar2 tbody td {
+    color: rgb(44, 86, 122);
+    cursor: pointer;
+  }
+  
+  #calendar2 tbody td:nth-child(n + 6),
+  #calendar2 .holiday {
+    color: rgb(231, 140, 92);
+    cursor: pointer;
+  }
+  
